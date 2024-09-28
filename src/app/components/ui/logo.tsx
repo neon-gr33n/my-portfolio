@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
@@ -36,6 +35,7 @@ const Logo = () => {
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
         <Image
+          id="signature"
           src={'/hero_image.png'}
           alt="Logo"
           width={width < 1024 ? "500" : "400"}

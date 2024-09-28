@@ -1,18 +1,11 @@
 import Image from "next/image";
-import Card from "./components/ui/card";
+import Card from "../components/ui/card";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-      <div id="description">
-        <h1>Skylar Sweat is a United States of America based programmer</h1>
-      </div>
-      <div className="line"></div>
-        <div id="showcase">
-          <Card imageSrc={'/sm_hero_img.png'} alt={"SWAPPED MYTH logo"} content={"Programming"}/>
-        </div>
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-        </div>
+      <main>
+        <h1>NIGGER</h1>
+
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
