@@ -113,6 +113,7 @@ h1 {
 #showcase .img-desc h1{
   margin-top:20%;
   font-size:1.8vw;
+  opacity: 0;
 }
 #showcase .wide-img .img-desc h1{
   margin-top:15%;
@@ -120,6 +121,12 @@ h1 {
 #showcase .img-desc p{
   text-align:center;
   font-size:1.3vw;
+  opacity: 0;
+}
+
+#showcase .img-desc:hover{
+ p:hover{opacity: 1}
+ h1:hover {opacity: 1};
 }
 
 #signature img{
@@ -134,4 +141,34 @@ h1 {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@media(max-width:900px) {
+    #showcase a{
+        width: 100%;
+        height: 100%;
+    }
+    #showcase .img-desc h1{
+        font-size:3.4vw;
+    }
+    #showcase .img-desc p{
+        font-size:2.4vw;
+    }
+
+    #social-media{
+        font-size:0.8rem;
+    }
+    #signature img{
+        /*margin-top:50px;
+        margin-left:50%;
+        transform:translateX(-56%);
+
+        margin-bottom:8px;*/
+        width:48%;
+    }
+
+    #description{
+        font-size:1.1rem;
+        padding:0;
+    }
 }
