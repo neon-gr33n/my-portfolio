@@ -20,6 +20,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.hero {
+  width: 200%;
+  height: auto;
+  top: -25%;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
