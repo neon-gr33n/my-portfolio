@@ -4,7 +4,7 @@ import React from "react";
 const Card = ({imageSrc, alt, contentHeading, contentParagraph}) => {
     return (
         <>
-            <a href="#" className="group relative block">
+            <a href="https://gamejolt.com/games/swappedmyth/857058" className="group relative block">
             <div className="img-container">
                 <Image
                     alt={alt}

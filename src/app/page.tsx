@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
       <div id="description">
         <p>
-          Skylar Sweat is a United States of America based programmer and software engineer, 
+          Skylar Sweat is a USA based programmer and software engineer, 
           focusing on delivering high-quality products to the gaming community.
         </p>
         <p>
