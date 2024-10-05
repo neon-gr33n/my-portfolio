@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
 
-const Card = ({imageSrc, alt, contentHeading, contentParagraph}) => {
+const Card = ({imageSrc, alt, contentHeading, contentParagraph, linkHref}) => {
     return (
         <>
-            <a href="https://gamejolt.com/games/swappedmyth/857058" className="group relative block">
+            <a href={linkHref} target="_blank" className="group relative block">
             <div className="img-container">
                 <Image
                     alt={alt}
