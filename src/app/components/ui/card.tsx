@@ -1,7 +1,23 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
-const Card = ({imageSrc, alt, contentHeading, contentParagraph, linkHref}) => {
+// Define the props interface
+interface CardProps {
+    imageSrc: string | StaticImageData; // Ensure imageSrc is a string or StaticImageData
+    alt: string;
+    contentHeading: string;
+    contentParagraph: string;
+    linkHref: string;
+}
+
+
+const Card: React.FC<CardProps> = ({
+    imageSrc,
+    alt,
+    contentHeading,
+    contentParagraph,
+    linkHref
+}) => {
     return (
         <>
             <a href={linkHref} target="_blank" className="group relative block">

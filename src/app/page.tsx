@@ -20,9 +20,12 @@ export default function Home() {
       <div className="line"></div>
         <div className="grid gap-4 items-center grid-cols-1 sm:grid-cols-2">  
           <Card imageSrc={'/sm_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/swappedmyth/857058"}/>
-          <Card imageSrc={'/gf_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/tg-fell-official/365971"}/>  
+          <Card imageSrc={'/gf_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/tg-fell-official/365971"}/>
+          <Card imageSrc={'/fileogizer_py_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/tg-fell-official/365971"}/>
+          <Card imageSrc={'/py-calc_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/tg-fell-official/365971"}/>        
       </div>  
       </main>
+      <h1>Welcome to my portfolio website!</h1>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
             <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
