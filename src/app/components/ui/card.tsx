@@ -30,8 +30,8 @@ const Card: React.FC<CardProps> = ({
                     height={1080}
                 />
                 <div className="img-desc">
-                    <h1>{contentHeading}</h1>
-                    <p>{contentParagraph}</p>
+                    <h1 className="dark:text-white">{contentHeading}</h1>
+                    <p className="dark:text-white">{contentParagraph}</p>
                 </div>
             </div>
             </a>

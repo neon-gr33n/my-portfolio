@@ -36,7 +36,7 @@ const Logo = () => {
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
         <Image
           id="signature"
-          src={'/hero_image.png'}
+          src={'/hero_image_dark.png'}
           alt="Logo"
           width={width < 1024 ? "500" : "400"}
           height={width < 1024 ? "500" : "400"}

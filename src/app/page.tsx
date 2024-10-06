@@ -3,17 +3,17 @@ import Card from "./components/ui/card";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]  dark:bg-slate-900">
+      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start ">
       <div id="description">
-        <p>
+        <p className="dark:text-white">
           Skylar Sweat is a USA based programmer and software engineer, 
           focusing on delivering high-quality products to the gaming community.
         </p>
-        <p>
+        <p className="dark:text-white">
          He enjoys building games and websites that challenge his skill, and open doors to bettering himself as a developer.
         </p>
-        <p>
+        <p className="dark:text-white">
          Outside of work, he greatly enjoys the outdoors, and music composition
         </p>
       </div>
@@ -25,7 +25,7 @@ export default function Home() {
           <Card imageSrc={'/py-calc_hero_img.png'} alt={"SWAPPED MYTH logo"} contentHeading={"Programming"} contentParagraph={"Click here to open website"} linkHref={"https://gamejolt.com/games/tg-fell-official/365971"}/>        
       </div>  
       </main>
-      <h1>Welcome to my portfolio website!</h1>
+      <h1 className="dark:text-white">Welcome to my portfolio website!</h1>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
             <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"

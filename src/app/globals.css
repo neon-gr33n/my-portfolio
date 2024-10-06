@@ -54,6 +54,7 @@ body {
 .hero {
   width: 200%;
   height: 100%;
+  color: white;
 }
 
 .line {
@@ -85,7 +86,6 @@ h1 {
 #description p{
   margin-top:0.8rem;
   margin-bottom:0.8rem;
-  color: black;
 }
 
 #showcase a{

@@ -3,7 +3,7 @@ import Link from "next/link";
 import Logo from "./logo";
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   return (
-      <div className="w-full h-full sticky top-0 bg-white z-10">
+      <div className="w-full h-full sticky top-0 bg-white dark:bg-slate-800  z-10">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
           <button className="hamburger hamburger--spin" type="button"
@@ -13,20 +13,20 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             </span>
           </button>
           <Logo/>
-            <ul className="hidden md:flex gap-x-6 text-black">
+            <ul className="hidden md:flex gap-x-6 text-black dark:text-white">
               <li>
                 <Link href="/about">
-                  <p>About</p>
+                  <p className="dark:text-white">About</p>
                 </Link>
               </li>
               <li>
                 <Link href="/resume">
-                  <p>Resume</p>
+                  <p className="dark:text-white">Resume</p>
                 </Link>
               </li>
               <li>
                 <Link href="/contact">
-                  <p>Contact</p>
+                  <p className="dark:text-white">Contact</p>
                 </Link>
               </li>
             </ul>
