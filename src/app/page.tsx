@@ -59,6 +59,7 @@ export default function Home() {
             Download Resume/CV →
             </a>
         </footer>
+
     </div>
   );
 }

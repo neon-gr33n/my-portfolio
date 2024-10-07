@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]  dark:bg-slate-900">
       <main className="flex flex-col gap-2 row-start-2 items-center sm:items-start">
-        <h1>About me</h1>
-        <p>Skylar "Neon-Gr33n" Sweat is a game developer, tester, and web developer hailing from the Southern US.
+        <h1 className="dark:text-white">About me</h1>
+        <p className="dark:text-white">Skylar &quot;Neon-Gr33n&quot; Sweat is a game developer, tester, and web developer hailing from the Southern US.
             ever since he reached the tender age of 8 years old, he aspired to create new things, his own worlds, 
             his own games, and other creative works such as this very website you're on right now!
         </p>
-        <p>
+        <p className="dark:text-white">
             Although he has no formal education in computer science, or web/software development, such as a degree in Software Engineering or Computer Science, 
             Skylar has become an efficient self-taught developer, always exploring new concepts and eager to broaden his horizons along his
             developer journey, striving to be the very best developer he can be.</p>
-        <p>His experience is primarily within the web and game development spaces, experienced with common front end tools such as</p>
+        <p className="dark:text-white">His experience is primarily within the web and game development spaces, experienced with common front end tools such as</p>
         <br></br>
         <ol>
           <li>HTML</li>
@@ -25,7 +25,7 @@ export default function Home() {
           <li>React</li>
         </ol>
         <br></br>
-        <p>He is also experienced with a number of game engines such as Unity, Unreal Engine, Godot and GameMaker, although there's alwasy the possibility of learning more!</p>
+        <p className="dark:text-white">He is also experienced with a number of game engines such as Unity, Unreal Engine, Godot and GameMaker, although there's alwasy the possibility of learning more!</p>
         <br></br>
         <h1>Interested? contact me for work <span><a href="/contact">here!</a></span></h1>
       </main>

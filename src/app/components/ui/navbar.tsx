@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Logo from "./logo";
-const Navbar = ({ toggle }: { toggle: () => void }) => {
+const Navbar = () => {
   return (
       <div className="w-full h-full sticky top-0 bg-white dark:bg-slate-800  z-10">
         <div className="container mx-auto px-4 h-full">

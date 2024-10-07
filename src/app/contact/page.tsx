@@ -2,22 +2,25 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]  dark:bg-slate-900">
     <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
     <div className="flex items-center justify-center p-12">
     <div className="mx-auto w-full max-w-[550px]">
-      <h1>
-        Contact Me
-      </h1>
       <br>
       </br>
       <br></br>
+      <br></br>
       <form action="https://formbold.com/s/FORM_ID" method="POST">
         <div className="mb-5">
+          <br></br>
+          <h1 className="dark:text-white">
+          Contact Me
+          </h1>
+          <br></br>
           <label
             htmlFor="name"
-            className="mb-3 block text-base font-medium text-[#07074D]"
+            className="mb-3 block text-base font-medium text-[#07074D] dark:text-white"
           >
             Full Name
           </label>
@@ -32,7 +35,7 @@ export default function Home() {
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="mb-3 block text-base font-medium text-[#07074D]"
+            className="mb-3 block text-base font-medium text-[#07074D] dark:text-white"
           >
             Email Address
           </label>
@@ -47,7 +50,7 @@ export default function Home() {
         <div className="mb-5">
           <label
             htmlFor="subject"
-            className="mb-3 block text-base font-medium text-[#07074D]"
+            className="mb-3 block text-base font-medium text-[#07074D] dark:text-white"
           >
             Subject
           </label>
@@ -62,7 +65,7 @@ export default function Home() {
         <div className="mb-5">
           <label
             htmlFor="message"
-            className="mb-3 block text-base font-medium text-[#07074D]"
+            className="mb-3 block text-base font-medium text-[#07074D] dark:text-white"
           >
             Message
           </label>

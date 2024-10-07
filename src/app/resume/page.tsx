@@ -2,11 +2,11 @@ import Image from "next/image";
 import Card from "../components/ui/card";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]  dark:bg-slate-900">
       <main>
-        <h1>Download my Resume/CV</h1>
+        <h1 className="dark:text-white">Download my Resume/CV</h1>
         <br></br>
-        <p>The file should automatically start downloading,
+        <p className="dark:text-white">The file should automatically start downloading,
            if it doesn't start downloading shortly 
         </p>
         <span><a href="">click here to manually start downloading the file.</a></span>
